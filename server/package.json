@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js"
+  },
+  "keywords": [
+    "api",
+    "database"
+  ],
+  "author": "Yan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.0.0",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  }
+}
